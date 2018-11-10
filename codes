@@ -1,0 +1,10 @@
+tar zcvf dir1.tar.gz dir1/    If you'd prefer to zip up the directory structure then you'll likely want to use the tar command, and then compress the resulting .tar file.
+wget http://www.domain.com/filename.zip  download
+ls -lha  To view the file permissions of a set of files, use:
+drwxr-xr-x 2 user group
+directory rwx pentru user, r - x pt group, r - x pentru global
+dir d, folder -, link l
+chmod [who][+,-,=][permissions] filename
+chmod g+w ~/group-project.txt
+sudo chown -R username:group directory
+#!/bin/bash
